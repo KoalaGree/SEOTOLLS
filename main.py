@@ -7,6 +7,7 @@ Another Tools For Make Your Jobs Easier Python Version
 - 2) Coloud Downloads
 - 3) Shell Finder
 - 4) Xml Creator
+- 5) Wordpress Find Installation
 ----------------------------------------------------------------
 '''
 
@@ -21,5 +22,7 @@ elif choice == '3':
     from Scripts import shell
 elif choice == '4':
     from Scripts import xmlcreator
+elif choice == '5':
+    from Scripts import wordpressfind
 else:
     print("Wrong Choice")
